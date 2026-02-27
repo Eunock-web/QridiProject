@@ -6,7 +6,8 @@
   "description": "A batteries-included AdonisJS starter kit for building modern APIs with type-safe frontend integration",
   "license": "MIT",
   "workspaces": [
-    "apps/*"
+    "apps/backend",
+    "apps/frontend/QridiFront"
   ],
   "engines": {
     "node": ">=24.0.0"
