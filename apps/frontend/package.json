@@ -1,0 +1,21 @@
+{
+  "name": "@qridi/frontend",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Qridi Frontend with React + Vite + Type-safe API",
+  "type": "module",
+  "scripts": {
+    "dev": "npm -C ./QridiFront run dev",
+    "build": "npm -C ./QridiFront run build",
+    "test": "npm -C ./QridiFront run test",
+    "lint": "npm -C ./QridiFront run lint",
+    "typecheck": "npm -C ./QridiFront run typecheck",
+    "preview": "npm -C ./QridiFront run preview"
+  },
+  "workspaces": [
+    "QridiFront"
+  ],
+  "devDependencies": {
+    "@tuyau/core": "^0.2.0"
+  }
+}
